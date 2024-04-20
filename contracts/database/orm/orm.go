@@ -132,6 +132,8 @@ type Query interface {
 	WithTrashed() Query
 	// With returns a new query instance with the given relationships eager loaded.
 	With(query string, args ...any) Query
+	// expose the instance db from gorm
+	WithContext(context.Context) Query
 }
 
 //go:generate mockery --name=Association
