@@ -3,7 +3,7 @@ package gorm
 import (
 	"context"
 
-	"github.com/goravel/framework/contracts/config"
+	"github.com/Firhan384/framework/contracts/config"
 )
 
 //go:generate mockery --name=Initialize

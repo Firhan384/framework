@@ -1,12 +1,12 @@
 package http
 
 import (
-	"github.com/goravel/framework/contracts/cache"
-	"github.com/goravel/framework/contracts/config"
-	consolecontract "github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/foundation"
-	"github.com/goravel/framework/contracts/http"
-	"github.com/goravel/framework/http/console"
+	"github.com/Firhan384/framework/contracts/cache"
+	"github.com/Firhan384/framework/contracts/config"
+	consolecontract "github.com/Firhan384/framework/contracts/console"
+	"github.com/Firhan384/framework/contracts/foundation"
+	"github.com/Firhan384/framework/contracts/http"
+	"github.com/Firhan384/framework/http/console"
 )
 
 const BindingRateLimiter = "goravel.rate_limiter"

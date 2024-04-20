@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/viper"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/support"
-	"github.com/goravel/framework/support/file"
+	"github.com/Firhan384/framework/contracts/config"
+	"github.com/Firhan384/framework/support"
+	"github.com/Firhan384/framework/support/file"
 )
 
 var _ config.Config = &Application{}

@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/schedule"
+	"github.com/Firhan384/framework/contracts/schedule"
 )
 
 func Schedule() schedule.Schedule {

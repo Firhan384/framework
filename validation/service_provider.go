@@ -1,9 +1,9 @@
 package validation
 
 import (
-	consolecontract "github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/foundation"
-	"github.com/goravel/framework/validation/console"
+	consolecontract "github.com/Firhan384/framework/contracts/console"
+	"github.com/Firhan384/framework/contracts/foundation"
+	"github.com/Firhan384/framework/validation/console"
 )
 
 const Binding = "goravel.validation"

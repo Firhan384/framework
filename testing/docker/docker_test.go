@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	configmocks "github.com/goravel/framework/contracts/config/mocks"
-	foundationmocks "github.com/goravel/framework/contracts/foundation/mocks"
+	configmocks "github.com/Firhan384/framework/contracts/config/mocks"
+	foundationmocks "github.com/Firhan384/framework/contracts/foundation/mocks"
 )
 
 type DockerTestSuite struct {

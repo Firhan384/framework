@@ -9,8 +9,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cast"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/support/json"
+	"github.com/Firhan384/framework/contracts/config"
+	"github.com/Firhan384/framework/support/json"
 )
 
 type General struct {

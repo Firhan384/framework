@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/contracts/filesystem"
-	supportfile "github.com/goravel/framework/support/file"
-	"github.com/goravel/framework/support/str"
+	"github.com/Firhan384/framework/contracts/config"
+	"github.com/Firhan384/framework/contracts/filesystem"
+	supportfile "github.com/Firhan384/framework/support/file"
+	"github.com/Firhan384/framework/support/str"
 )
 
 type File struct {

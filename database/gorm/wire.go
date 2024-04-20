@@ -10,8 +10,8 @@ import (
 
 	"github.com/google/wire"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/database/db"
+	"github.com/Firhan384/framework/contracts/config"
+	"github.com/Firhan384/framework/database/db"
 )
 
 //go:generate wire

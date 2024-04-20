@@ -12,11 +12,12 @@ import (
 	gormlogger "gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 	"gorm.io/plugin/dbresolver"
+	"gorm.io/plugin/opentelemetry/tracing"
 
-	"github.com/goravel/framework/contracts/config"
-	databasecontract "github.com/goravel/framework/contracts/database"
-	"github.com/goravel/framework/database/db"
-	"github.com/goravel/framework/support/carbon"
+	"github.com/Firhan384/framework/contracts/config"
+	databasecontract "github.com/Firhan384/framework/contracts/database"
+	"github.com/Firhan384/framework/database/db"
+	"github.com/Firhan384/framework/support/carbon"
 )
 
 var GormSet = wire.NewSet(NewGormImpl, wire.Bind(new(Gorm), new(*GormImpl)))
@@ -134,6 +135,10 @@ func (r *GormImpl) init(dialector gormio.Dialector) error {
 		},
 	})
 	if err != nil {
+		return err
+	}
+
+	if err := instance.Use(tracing.NewPlugin()); err != nil {
 		return err
 	}
 

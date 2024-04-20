@@ -7,8 +7,8 @@ func (receiver Stubs) Command() string {
 	return `package DummyPackage
 
 import (
-	"github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/console/command"
+	"github.com/Firhan384/framework/contracts/console"
+	"github.com/Firhan384/framework/contracts/console/command"
 )
 
 type DummyCommand struct {

@@ -1,7 +1,7 @@
 package route
 
 import (
-	"github.com/goravel/framework/contracts/foundation"
+	"github.com/Firhan384/framework/contracts/foundation"
 )
 
 const Binding = "goravel.route"

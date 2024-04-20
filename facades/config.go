@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/config"
+	"github.com/Firhan384/framework/contracts/config"
 )
 
 func Config() config.Config {

@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	configmock "github.com/goravel/framework/contracts/config/mocks"
-	"github.com/goravel/framework/support/file"
+	configmock "github.com/Firhan384/framework/contracts/config/mocks"
+	"github.com/Firhan384/framework/support/file"
 )
 
 type FileTestSuite struct {

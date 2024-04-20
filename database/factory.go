@@ -7,8 +7,8 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/goravel/framework/contracts/database/factory"
-	ormcontract "github.com/goravel/framework/contracts/database/orm"
+	"github.com/Firhan384/framework/contracts/database/factory"
+	ormcontract "github.com/Firhan384/framework/contracts/database/orm"
 )
 
 type FactoryImpl struct {

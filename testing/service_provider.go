@@ -1,8 +1,8 @@
 package testing
 
 import (
-	contractsconsole "github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/foundation"
+	contractsconsole "github.com/Firhan384/framework/contracts/console"
+	"github.com/Firhan384/framework/contracts/foundation"
 )
 
 const Binding = "goravel.testing"

@@ -6,10 +6,10 @@ import (
 
 	"github.com/gookit/color"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/console/command"
-	"github.com/goravel/framework/contracts/database/seeder"
+	"github.com/Firhan384/framework/contracts/config"
+	"github.com/Firhan384/framework/contracts/console"
+	"github.com/Firhan384/framework/contracts/console/command"
+	"github.com/Firhan384/framework/contracts/database/seeder"
 )
 
 type SeedCommand struct {

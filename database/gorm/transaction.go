@@ -3,8 +3,8 @@ package gorm
 import (
 	"gorm.io/gorm"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/contracts/database/orm"
+	"github.com/Firhan384/framework/contracts/config"
+	"github.com/Firhan384/framework/contracts/database/orm"
 )
 
 type Transaction struct {

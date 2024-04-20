@@ -12,13 +12,13 @@ import (
 	"github.com/stretchr/testify/suite"
 	"gorm.io/gorm/clause"
 
-	authcontract "github.com/goravel/framework/contracts/auth"
-	cachemock "github.com/goravel/framework/contracts/cache/mocks"
-	configmock "github.com/goravel/framework/contracts/config/mocks"
-	ormmock "github.com/goravel/framework/contracts/database/orm/mocks"
-	"github.com/goravel/framework/contracts/http"
-	"github.com/goravel/framework/database/orm"
-	"github.com/goravel/framework/support/carbon"
+	authcontract "github.com/Firhan384/framework/contracts/auth"
+	cachemock "github.com/Firhan384/framework/contracts/cache/mocks"
+	configmock "github.com/Firhan384/framework/contracts/config/mocks"
+	ormmock "github.com/Firhan384/framework/contracts/database/orm/mocks"
+	"github.com/Firhan384/framework/contracts/http"
+	"github.com/Firhan384/framework/database/orm"
+	"github.com/Firhan384/framework/support/carbon"
 )
 
 var guard = "user"

@@ -1,8 +1,8 @@
 package facades
 
 import (
-	foundationcontract "github.com/goravel/framework/contracts/foundation"
-	"github.com/goravel/framework/foundation"
+	foundationcontract "github.com/Firhan384/framework/contracts/foundation"
+	"github.com/Firhan384/framework/foundation"
 )
 
 func App() foundationcontract.Application {
