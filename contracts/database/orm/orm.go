@@ -72,6 +72,7 @@ type Query interface {
 	WithoutEvents() Query
 	WithTrashed() Query
 	With(query string, args ...any) Query
+	WithContext(context.Context) Query
 }
 
 //go:generate mockery --name=Association

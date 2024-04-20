@@ -139,6 +139,11 @@ func (r *QueryImpl) Distinct(args ...any) ormcontract.Query {
 	return NewQueryWithWithoutEvents(tx, r.withoutEvents, r.config)
 }
 
+func (r *QueryImpl) WithContext(ctx context.Context) ormcontract.Query {
+	r.instance = r.instance.WithContext(ctx)
+	return r
+}
+
 func (r *QueryImpl) Exec(sql string, values ...any) (*ormcontract.Result, error) {
 	result := r.instance.Exec(sql, values...)
 
