@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/goravel/framework/contracts/event"
-	queuecontract "github.com/goravel/framework/contracts/queue"
+	"github.com/Firhan384/framework/contracts/event"
+	queuecontract "github.com/Firhan384/framework/contracts/queue"
 )
 
 type TestJob struct {

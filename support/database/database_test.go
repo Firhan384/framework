@@ -7,7 +7,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/goravel/framework/database/orm"
+	"github.com/Firhan384/framework/database/orm"
 )
 
 type TestStruct struct {

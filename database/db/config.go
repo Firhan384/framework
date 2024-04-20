@@ -5,9 +5,9 @@ import (
 
 	"github.com/google/wire"
 
-	"github.com/goravel/framework/contracts/config"
-	databasecontract "github.com/goravel/framework/contracts/database"
-	"github.com/goravel/framework/contracts/database/orm"
+	"github.com/Firhan384/framework/contracts/config"
+	databasecontract "github.com/Firhan384/framework/contracts/database"
+	"github.com/Firhan384/framework/contracts/database/orm"
 )
 
 var ConfigSet = wire.NewSet(NewConfigImpl, wire.Bind(new(Config), new(*ConfigImpl)))

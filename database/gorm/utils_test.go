@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/goravel/framework/support/debug"
+	"github.com/Firhan384/framework/support/debug"
 )
 
 func TestCopyStruct(t *testing.T) {

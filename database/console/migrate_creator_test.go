@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	configmock "github.com/goravel/framework/contracts/config/mocks"
-	"github.com/goravel/framework/support/carbon"
-	"github.com/goravel/framework/support/file"
+	configmock "github.com/Firhan384/framework/contracts/config/mocks"
+	"github.com/Firhan384/framework/support/carbon"
+	"github.com/Firhan384/framework/support/file"
 )
 
 func TestCreate(t *testing.T) {

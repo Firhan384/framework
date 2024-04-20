@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/goravel/framework/contracts/auth/access"
+	"github.com/Firhan384/framework/contracts/auth/access"
 )
 
 type Gate struct {

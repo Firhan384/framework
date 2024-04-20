@@ -14,11 +14,11 @@ import (
 	gormio "gorm.io/gorm"
 	"gorm.io/gorm/clause"
 
-	"github.com/goravel/framework/contracts/config"
-	ormcontract "github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/database/gorm/hints"
-	"github.com/goravel/framework/database/orm"
-	"github.com/goravel/framework/support/database"
+	"github.com/Firhan384/framework/contracts/config"
+	ormcontract "github.com/Firhan384/framework/contracts/database/orm"
+	"github.com/Firhan384/framework/database/gorm/hints"
+	"github.com/Firhan384/framework/database/orm"
+	"github.com/Firhan384/framework/support/database"
 )
 
 var QuerySet = wire.NewSet(NewQueryImpl, wire.Bind(new(ormcontract.Query), new(*QueryImpl)))

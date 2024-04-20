@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/database/orm"
+	"github.com/Firhan384/framework/contracts/database/orm"
 )
 
 func Orm() orm.Orm {

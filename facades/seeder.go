@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/database/seeder"
+	"github.com/Firhan384/framework/contracts/database/seeder"
 )
 
 func Seeder() seeder.Facade {

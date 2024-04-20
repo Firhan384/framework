@@ -3,9 +3,9 @@ package mock
 import (
 	"fmt"
 
-	"github.com/goravel/framework/contracts/http"
-	"github.com/goravel/framework/contracts/log"
-	"github.com/goravel/framework/support/carbon"
+	"github.com/Firhan384/framework/contracts/http"
+	"github.com/Firhan384/framework/contracts/log"
+	"github.com/Firhan384/framework/support/carbon"
 )
 
 type TestLog struct {

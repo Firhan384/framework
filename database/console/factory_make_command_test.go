@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	consolemocks "github.com/goravel/framework/contracts/console/mocks"
-	"github.com/goravel/framework/support/file"
+	consolemocks "github.com/Firhan384/framework/contracts/console/mocks"
+	"github.com/Firhan384/framework/support/file"
 )
 
 func TestFactoryMakeCommand(t *testing.T) {

@@ -7,11 +7,11 @@ import (
 
 	"github.com/gookit/color"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/console/command"
-	"github.com/goravel/framework/support"
-	"github.com/goravel/framework/support/str"
+	"github.com/Firhan384/framework/contracts/config"
+	"github.com/Firhan384/framework/contracts/console"
+	"github.com/Firhan384/framework/contracts/console/command"
+	"github.com/Firhan384/framework/support"
+	"github.com/Firhan384/framework/support/str"
 )
 
 type KeyGenerateCommand struct {

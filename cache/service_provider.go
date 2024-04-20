@@ -1,9 +1,9 @@
 package cache
 
 import (
-	"github.com/goravel/framework/cache/console"
-	contractsconsole "github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/foundation"
+	"github.com/Firhan384/framework/cache/console"
+	contractsconsole "github.com/Firhan384/framework/contracts/console"
+	"github.com/Firhan384/framework/contracts/foundation"
 )
 
 const Binding = "goravel.cache"

@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	httpcontract "github.com/goravel/framework/contracts/http"
-	"github.com/goravel/framework/http"
-	httplimit "github.com/goravel/framework/http/limit"
-	"github.com/goravel/framework/support/carbon"
+	httpcontract "github.com/Firhan384/framework/contracts/http"
+	"github.com/Firhan384/framework/http"
+	httplimit "github.com/Firhan384/framework/http/limit"
+	"github.com/Firhan384/framework/support/carbon"
 )
 
 func Throttle(name string) httpcontract.Middleware {

@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/testing"
+	"github.com/Firhan384/framework/contracts/testing"
 )
 
 func Testing() testing.Testing {

@@ -1,4 +1,4 @@
-module github.com/goravel/framework
+module github.com/Firhan384/framework
 
 go 1.20
 

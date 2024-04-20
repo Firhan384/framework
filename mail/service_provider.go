@@ -1,8 +1,8 @@
 package mail
 
 import (
-	"github.com/goravel/framework/contracts/foundation"
-	"github.com/goravel/framework/contracts/queue"
+	"github.com/Firhan384/framework/contracts/foundation"
+	"github.com/Firhan384/framework/contracts/queue"
 )
 
 const Binding = "goravel.mail"

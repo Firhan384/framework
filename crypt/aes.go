@@ -11,8 +11,8 @@ import (
 	"github.com/bytedance/sonic"
 	"github.com/gookit/color"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/support"
+	"github.com/Firhan384/framework/contracts/config"
+	"github.com/Firhan384/framework/support"
 )
 
 type AES struct {

@@ -5,9 +5,9 @@ package mocks
 import (
 	context "context"
 
-	config "github.com/goravel/framework/contracts/config"
+	config "github.com/Firhan384/framework/contracts/config"
 
-	gorm "github.com/goravel/framework/database/gorm"
+	gorm "github.com/Firhan384/framework/database/gorm"
 
 	mock "github.com/stretchr/testify/mock"
 )

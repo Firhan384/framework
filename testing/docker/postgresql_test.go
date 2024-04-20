@@ -6,8 +6,8 @@ import (
 	"github.com/ory/dockertest/v3"
 	"github.com/stretchr/testify/suite"
 
-	configmocks "github.com/goravel/framework/contracts/config/mocks"
-	"github.com/goravel/framework/contracts/database/orm"
+	configmocks "github.com/Firhan384/framework/contracts/config/mocks"
+	"github.com/Firhan384/framework/contracts/database/orm"
 )
 
 type PostgresqlTestSuite struct {

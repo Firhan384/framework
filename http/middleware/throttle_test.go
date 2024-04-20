@@ -12,15 +12,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	cachemocks "github.com/goravel/framework/contracts/cache/mocks"
-	configmocks "github.com/goravel/framework/contracts/config/mocks"
-	"github.com/goravel/framework/contracts/filesystem"
-	contractshttp "github.com/goravel/framework/contracts/http"
-	httpmocks "github.com/goravel/framework/contracts/http/mocks"
-	"github.com/goravel/framework/contracts/validation"
-	"github.com/goravel/framework/http"
-	"github.com/goravel/framework/http/limit"
-	"github.com/goravel/framework/support/carbon"
+	cachemocks "github.com/Firhan384/framework/contracts/cache/mocks"
+	configmocks "github.com/Firhan384/framework/contracts/config/mocks"
+	"github.com/Firhan384/framework/contracts/filesystem"
+	contractshttp "github.com/Firhan384/framework/contracts/http"
+	httpmocks "github.com/Firhan384/framework/contracts/http/mocks"
+	"github.com/Firhan384/framework/contracts/validation"
+	"github.com/Firhan384/framework/http"
+	"github.com/Firhan384/framework/http/limit"
+	"github.com/Firhan384/framework/support/carbon"
 )
 
 func TestThrottle(t *testing.T) {

@@ -3,10 +3,10 @@ package auth
 import (
 	"context"
 
-	"github.com/goravel/framework/auth/access"
-	"github.com/goravel/framework/auth/console"
-	contractconsole "github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/foundation"
+	"github.com/Firhan384/framework/auth/access"
+	"github.com/Firhan384/framework/auth/console"
+	contractconsole "github.com/Firhan384/framework/contracts/console"
+	"github.com/Firhan384/framework/contracts/foundation"
 )
 
 const BindingAuth = "goravel.auth"

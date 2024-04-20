@@ -10,11 +10,11 @@ import (
 	"github.com/golang-migrate/migrate/v4/database/postgres"
 	"github.com/golang-migrate/migrate/v4/database/sqlserver"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/database/console/driver"
-	"github.com/goravel/framework/database/db"
-	"github.com/goravel/framework/support"
+	"github.com/Firhan384/framework/contracts/config"
+	"github.com/Firhan384/framework/contracts/database/orm"
+	sqlite "github.com/Firhan384/framework/database/console/driver"
+	"github.com/Firhan384/framework/database/db"
+	"github.com/Firhan384/framework/support"
 )
 
 func getMigrate(config config.Config) (*migrate.Migrate, error) {

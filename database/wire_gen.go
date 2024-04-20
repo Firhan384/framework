@@ -8,9 +8,9 @@ package database
 
 import (
 	"context"
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/database/db"
-	"github.com/goravel/framework/database/gorm"
+	"github.com/Firhan384/framework/contracts/config"
+	"github.com/Firhan384/framework/database/db"
+	"github.com/Firhan384/framework/database/gorm"
 )
 
 // Injectors from wire.go:

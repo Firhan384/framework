@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	queue "github.com/goravel/framework/contracts/queue"
+	queue "github.com/Firhan384/framework/contracts/queue"
 	mock "github.com/stretchr/testify/mock"
 )
 

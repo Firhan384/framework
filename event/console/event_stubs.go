@@ -6,7 +6,7 @@ type EventStubs struct {
 func (receiver EventStubs) Event() string {
 	return `package DummyPackage
 
-import "github.com/goravel/framework/contracts/event"
+import "github.com/Firhan384/framework/contracts/event"
 
 type DummyEvent struct {
 }
