@@ -1,6 +1,8 @@
 module github.com/Firhan384/framework
 
-go 1.20
+go 1.21
+
+toolchain go1.21.1
 
 require (
 	github.com/RichardKnop/machinery/v2 v2.0.11
@@ -33,6 +35,7 @@ require (
 	github.com/spf13/cast v1.5.1
 	github.com/spf13/viper v1.16.0
 	github.com/stretchr/testify v1.8.4
+	github.com/uptrace/opentelemetry-go-extra/otelgorm v0.2.4
 	github.com/urfave/cli/v2 v2.25.7
 	go.uber.org/atomic v1.11.0
 	golang.org/x/crypto v0.13.0
@@ -41,17 +44,18 @@ require (
 	gorm.io/driver/mysql v1.5.1
 	gorm.io/driver/postgres v1.5.2
 	gorm.io/driver/sqlserver v1.5.1
-	gorm.io/gorm v1.25.4
+	gorm.io/gorm v1.25.7
 	gorm.io/plugin/dbresolver v1.4.7
 )
 
 require (
-	github.com/go-logr/logr v1.2.4 // indirect
+	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
-	go.opentelemetry.io/otel v1.16.0 // indirect
-	go.opentelemetry.io/otel/metric v1.16.0 // indirect
-	go.opentelemetry.io/otel/trace v1.16.0 // indirect
-	gorm.io/plugin/opentelemetry v0.1.4 // indirect
+	github.com/rogpeppe/go-internal v1.10.0 // indirect
+	github.com/uptrace/opentelemetry-go-extra/otelsql v0.2.4 // indirect
+	go.opentelemetry.io/otel v1.24.0 // indirect
+	go.opentelemetry.io/otel/metric v1.24.0 // indirect
+	go.opentelemetry.io/otel/trace v1.24.0 // indirect
 )
 
 require (
@@ -93,7 +97,7 @@ require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/s2a-go v0.1.4 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect

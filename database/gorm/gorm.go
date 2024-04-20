@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/google/wire"
+	"github.com/uptrace/opentelemetry-go-extra/otelgorm"
 	gormio "gorm.io/gorm"
 	gormlogger "gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 	"gorm.io/plugin/dbresolver"
-	"gorm.io/plugin/opentelemetry/tracing"
 
 	"github.com/Firhan384/framework/contracts/config"
 	databasecontract "github.com/Firhan384/framework/contracts/database"
@@ -138,7 +138,7 @@ func (r *GormImpl) init(dialector gormio.Dialector) error {
 		return err
 	}
 
-	if err := instance.Use(tracing.NewPlugin()); err != nil {
+	if err := instance.Use(otelgorm.NewPlugin(otelgorm.WithDBName(r.config.GetString(fmt.Sprintf("database.connections.%s.database", r.connection))))); err != nil {
 		return err
 	}
 
