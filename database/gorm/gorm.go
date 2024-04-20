@@ -17,6 +17,7 @@ import (
 	databasecontract "github.com/Firhan384/framework/contracts/database"
 	"github.com/Firhan384/framework/database/db"
 	"github.com/Firhan384/framework/support/carbon"
+	"gorm.io/plugin/opentelemetry/tracing"
 )
 
 var GormSet = wire.NewSet(NewGormImpl, wire.Bind(new(Gorm), new(*GormImpl)))
@@ -134,6 +135,10 @@ func (r *GormImpl) init(dialector gormio.Dialector) error {
 		},
 	})
 	if err != nil {
+		return err
+	}
+
+	if err := instance.Use(tracing.NewPlugin()); err != nil {
 		return err
 	}
 
